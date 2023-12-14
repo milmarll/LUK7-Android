@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LUK7</string>
+    <string name="title_home">Home</string>
+    <string name="title_voucher">Voucher</string>
+    <string name="title_settings">Settings</string>
+    <string name="editar">Edit</string>
+    <string name="mi_produccion">My Production</string>
+    <string name="reportes">Reports</string>
+    <string name="atr_s"><![CDATA[< Back]]></string>
+    <string name="nueva_producci_n">New Production</string>
+    <string name="total_lpm">Total LPN:</string>
+    <string name="tiempo_trabajado">Time worked:</string>
+    <string name="clasificaci_n">Rating:</string>
+    <string name="escaneeprimerlpn">Scan the first LPN to start production</string>
+    <string name="escaneesegundolpn">Scan the second LPN to end production</string>
+    <string name="primerlpnescaneado">LPN scanned at the start of production</string>
+    <string name="segundoescaneado">LPN scanned at the end of production</string>
+    <string name="ratingmostradotext">The rating shown here is based on the information provided and the calculation was made by dividing the total LPN scanned with the work time.</string>
+    <string name="scan_code">Escanear código</string>
+    <string name="rankinnoterminado">"Scan both LPNs to get the rating "</string>
+    <string name="noeslpn">Not a valid LPN</string>
+    <string name="eliminar">Delete</string>
+    <string name="done">Done</string>
+    <string name="eliminarcontadorr">"Item removed. Cancel in "</string>
+    <string name="segundos">seconds</string>
+    <string name="cancelar">Cancel</string>
+    <string name="mis_reportes">My Reports</string>
+    <string name="guarda_reportes">Save your reports when you run out of work online or other incident for which you are not working</string>
+    <string name="detalles_reporte">Report Details</string>
+    <string name="ttilo">Title</string>
+    <string name="descripcion">Description</string>
+    <string name="rellene">Fill out this text entry</string>
+    <string name="informacion">Information</string>
+    <string name="desarrollador">Developer</string>
+    <string name="compartir">Share</string>
+    <string name="version">Version</string>
+    <string name="soporte">Support</string>
+    <string name="informarerror">Report a bug</string>
+    <string name="apariencia">Appearance</string>
+    <string name="claro">Light</string>
+    <string name="oscuro">Dark</string>
+    <string name="predeterminada">Default</string>
+    <string name="website">WebSite</string>
+    <string name="help_vaucher">Use the barcode above in case you have forgotten your vaucher at home.</string>
+</resources>

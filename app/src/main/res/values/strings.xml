@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">LUK7</string>
+    <string name="title_home">Home</string>
+    <string name="title_voucher">Voucher</string>
+    <string name="title_settings">Settings</string>
+    <string name="editar">Edit</string>
+    <string name="mi_produccion">My Production</string>
+    <string name="reportes">Reports</string>
+    <string name="atr_s"><![CDATA[< Atrás]]></string>
+    <string name="nueva_producci_n">Nueva Producción</string>
+    <string name="total_lpm">Total LPN:</string>
+    <string name="tiempo_trabajado">Tiempo trabajado:</string>
+    <string name="clasificaci_n">Clasificación:</string>
+    <string name="escaneeprimerlpn">Escanee el primer LPN para darle inicio a la producción</string>
+    <string name="escaneesegundolpn">Escanee el segundo LPN para darle fin a la producción</string>
+    <string name="primerlpnescaneado">LPN escaneado al inicio de la produccion</string>
+    <string name="segundoescaneado">LPN escaneado al final de la producción</string>
+    <string name="ratingmostradotext">El rating que se muestra aquí se basa en la informacón proporcionada y el cálculo se realizó dividiendo el total de LPN escaneados con el tiempo de trabajo.</string>
+    <string name="scan_code">Escanear código</string>
+    <string name="rankinnoterminado">Escanee los dos LPN para obtener el rating</string>
+    <string name="noeslpn">No es un LPN válido</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="done">Echo</string>
+    <string name="eliminarcontadorr">Elemento eliminado. Cancelar</string>
+    <string name="segundos">segundos</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="mis_reportes">Mis Reportes</string>
+    <string name="guarda_reportes">Guarda tus reportes cuando te quedes sin trabajo en línea de reproducción u otro incidente por el cual no estás trabajando</string>
+    <string name="detalles_reporte">Detalles del Reporte</string>
+    <string name="ttilo">Título</string>
+    <string name="descripcion">Descripción</string>
+    <string name="rellene">Rellene esta entrada de texto</string>
+    <string name="informacion">Información</string>
+    <string name="desarrollador">Desarrollador</string>
+    <string name="compartir">Compartir</string>
+    <string name="version">Versión</string>
+    <string name="soporte">Soporte</string>
+    <string name="informarerror">Informar de un error</string>
+    <string name="apariencia">Apariencia</string>
+    <string name="claro">Claro</string>
+    <string name="oscuro">Oscuro</string>
+    <string name="predeterminada">Predeterminado</string>
+    <string name="website">Sitio Web</string>
+    <string name="help_vaucher">Utilice el código de barra de ariiba en caso de que haya olvidado su vaucher en casa.</string>
+
+
+</resources>

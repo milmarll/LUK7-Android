@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/carcolor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cancelar"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                app:srcCompat="@android:drawable/ic_delete"
+                app:tint="@color/alternativo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/detalles_reporte"
+                android:textColor="@color/texto"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ok"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                app:srcCompat="@drawable/baseline_save_24"
+                app:tint="@color/alternativo" />
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fondo"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/guarda_reportes"
+            android:textColor="@color/texto" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColorHint="@color/textoclaro"
+            app:boxBackgroundColor="@color/carcolor"
+            app:boxStrokeColor="@color/texto"
+            app:counterTextColor="@color/texto"
+            app:cursorColor="@color/texto"
+            app:helperTextTextColor="@color/texto"
+            app:hintTextColor="@color/textoclaro"
+            app:prefixTextColor="@color/texto"
+            app:suffixTextColor="@color/texto">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ttilo"
+                android:shadowColor="@color/alternativo"
+                android:textColor="@color/texto"
+                android:textColorHint="@color/textoclaro" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+
+                    tools:visibility="visible">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:textColorHint="@color/textoclaro"
+                        app:boxBackgroundColor="@color/carcolor"
+                        app:boxStrokeColor="@color/texto"
+                        app:counterTextColor="@color/texto"
+                        app:cursorColor="@color/texto"
+                        app:helperTextTextColor="@color/texto"
+                        app:hintTextColor="@color/textoclaro"
+                        app:prefixTextColor="@color/texto"
+                        app:suffixTextColor="@color/texto">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/descripcion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/descripcion"
+                            android:shadowColor="@color/alternativo"
+                            android:textColor="@color/texto"
+                            android:textColorHint="@color/textoclaro" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
